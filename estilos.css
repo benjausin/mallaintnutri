@@ -1,1 +1,9 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.malla { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.semestre { border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
+.semestre h2 { text-align: center; }
+.curso { margin: 5px 0; padding: 8px; background: #f0f8ff; cursor: pointer;
+         border-radius: 4px; transition: background 0.3s; }
+.curso:hover { background: #b0dfff; }
+.info-curso { margin-top: 20px; padding: 12px; border-top: 1px solid #aaa; }
 
